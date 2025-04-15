@@ -5,7 +5,7 @@ import {
     AccordionDetails,
     Typography
 } from "@mui/material";
-import ExpandMoreIcon from "@mui/icon-material/ExpandMore";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';    
 
 const Accordion = ({items}) => {
     const [expandedIndex, setExpandedIndex] = useState(null);
