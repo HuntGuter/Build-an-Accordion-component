@@ -18,9 +18,9 @@ const Accordion = ({items}) => {
         <div>
             {items.map((item, index) => (
                 <MuiAccordion
-                        key={index}
-                        expanded={expandedIndex === index}
-                        onChange={handleChange(index)}
+                    key={index}
+                    expanded={expandedIndex === index}
+                    onChange={handleChange(index)}
                 >
                     <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
                         <Typography>{item.title}</Typography>
@@ -29,7 +29,7 @@ const Accordion = ({items}) => {
                         <Typography>{item.content}</Typography>
                     </AccordionDetails>
                 </MuiAccordion>
-            ))};
+            ))}
         </div>
     );
 };

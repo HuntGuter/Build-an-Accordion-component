@@ -17,7 +17,7 @@ const items = [
     content:
       "GitHub is built by developers for developers, and we’re proud to be home to the world’s largest open source community. With 50 million developers and millions more open source projects, GitHub has become the go-to place to collaborate and build software together.",
   },
-]
+];
 
 function App() {
     return (
@@ -25,9 +25,9 @@ function App() {
         <Typography variant="h4" component="h1" gutterBottom>
           GitHub FAQ
         </Typography>
-        <Accordion items={items}/>
+        <Accordion items={items} />
       </Container>
     );
 }
 
-export default App
+export default App;
